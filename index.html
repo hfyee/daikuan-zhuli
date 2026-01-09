@@ -4,10 +4,15 @@
 </head>
  <body>
  <h1>Loan Risk Assessment Assistant</h1> 
-<p>AI-powered workflow automation</p>
-      <img src="bank_officer.png" style="width: 153px; height: 230px;" alt="Friendly bank officer image" />
-   <flowise-fullchatbot></flowise-fullchatbot>
-<script type="module">
+  <p>AI-powered workflow automation</p>
+  <p>Example user inputs:
+   <ul>
+     <li>"Customer name: Loren, email: loren@gmail.com"</li>
+     <li>What are the risk level and applicable interest rate for the customer named Andy?</li>
+   </ul></p>
+  <img src="bank_officer.png" style="width: 153px; height: 230px;" alt="Friendly bank officer image" />
+  <flowise-fullchatbot></flowise-fullchatbot>
+  <script type="module">
     import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
     Chatbot.initFull({
         chatflowid: "d346c16d-5118-400d-b80a-b0abf60f17d3",
